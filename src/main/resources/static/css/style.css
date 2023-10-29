@@ -50,6 +50,30 @@ a {
     align-items: center;
 }
 
+.vizitka--nova--pridat {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5em;
+}
+
+.vizitka--form {
+    border: 1px solid gray;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-width: 300px;
+}
+
+.form-label {
+    display: block;
+}
+
+.radek {
+    margin-bottom: 15px;
+}
+
 a:hover .vizitka {
     box-shadow: 10px 10px 10px black;
     transform: translate(-5px, -5px);
